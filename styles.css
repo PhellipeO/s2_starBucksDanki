@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+header {
+    padding: 20px 0;
+    height: 200px;
+}
+
+.logo {
+    width: 50%;
+
+}
+
+.menu {
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.sobre {
+    position: relative;
+    height: calc(100% - 200px);
+}
+
+.extras {
+    position: absolute;
+    bottom: -140px;
+    right: -140px;
+    width: 700px;
+    height: 700px;
+    background-color: #005534;
+    border-radius: 50%;
+}
+
+.logo-cafe {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    right: 350px;
+    bottom: 250px;
+}
+
+.social-media {
+    position: absolute;
+    right: 140px;
+    top: 90px;
+}
+
+.social-media img {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.texto-sobre {
+    margin-top: 100px;
+}
+
+.texto-sobre h1 {
+    font-size: 50px;
+}
+
+.texto-sobre p {
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+}
+
+.texto-sobre button{
+    border: 0;
+    background-color: #005534;
+    color: white;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.texto-sobre button:hover{
+    background-color: #0ba98f;
+}
